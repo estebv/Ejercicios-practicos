@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap" rel="stylesheet">
+    <link rel="preload" href="/imc/css/style.css" as="style">
+    <link rel="stylesheet" href="/imc/css/style.css">
+    <script src="./js/calcular-imc.js"></script>
+    <link href="/imc/css/style.css" rel="stylesheet">
+    <title>indice de masa corporal</title>
+</head>
+<body>
+    <h1>Calculadora de IMC</h1>
+    <div class="contenedor">
+        <label for="">Ingrese su peso (kilogramos) </label>
+        <input id="peso" type="number">
+        <br>
+        <label for="">Ingrese su altura (cm)</label>
+        <input id="altura" type="number">
+        <br>
+        <button onclick="calcularImc()">Calcular</button>
+        <br>
+        <h2 style="display:inline-block">IMC Calculado:</h2>
+        <label  for="" id="resultado" >--</label><br>
+        <img src="/imc/imc.jpg"><br>
+
+    </div>
+</body>
+</html>

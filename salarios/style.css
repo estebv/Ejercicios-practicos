@@ -1,0 +1,68 @@
+
+   
+   body{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+         font-size: 16px; /* 1rem = 10px*/
+       }
+
+
+h1{
+    color:black;
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Protest Revolution', sans-serif;    
+    text-decoration: solid;
+    text-shadow: 3px 3px 2px blue;
+}
+
+.contenedor{
+    width: 500px;
+    padding: 12px;
+    background-color: silver;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid;
+    border-color: black;
+    text-align: center;
+}
+
+
+.contenedor label{
+    padding: 6px;
+    color:black;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Protest Revolution', sans-serif;    
+    text-decoration: solid;
+
+}
+
+button{
+    padding: 10px;
+    background-color:bisque;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+button:hover{
+    background-color: green;
+}
+
+
+img{
+    width: 180px;
+    height: 100px;
+    border-radius: 40px;
+    border-width: 5px;
+    border-color: black;
+    border-style: groove;
+    margin: 20px;
+}
+
+
+    

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap" rel="stylesheet">
+    <link rel="preload" href="/salarios/style.css" as="style">
+    <link rel="stylesheet" href="/salarios/style.css"">
+    <script src="/salarios/salario.js"></script>
+
+    <title>salario neto</title>
+</head>
+
+<body>
+    <h1>pagos</h1>
+
+    
+    <div class="contenedor">
+        <label for="">salario bruto</label>
+        <br>
+        <input id="bruto" type="number">
+        <br>
+        <label for="">horas trabajadas</label>
+        <br>
+        <input id="horas" type="number">
+        <br>
+        <label for="">tarifa horas</label>
+        <br>
+        <input id="tarifa" type="number">
+        <br>
+        <label for="">pension</label>
+        <br>
+        <input id="pension" type="text">
+        <br>
+        <label for=""> salud </label>
+        <br>
+        <input id="salud" type="number">
+        <br>
+        <button onclick="calcular()">Calcular pagos</button>
+        <br>
+    <div class="salario">
+        <h2 >salario neto</h2>
+        <label  for="" id="salario" >--</label>
+        <br>
+    </div>
+    <div class="pago-salud">        
+        <h2 >salud</h2>
+        <label for="" id="pSalud" >--</label>
+        <br>
+        <div class="pago-pension">        
+            <h2 >pension</h2>
+            <label for="" id="pPension" >--</label>
+            <br>
+    </div>
+    </div>
+
+</body>
+</html>
